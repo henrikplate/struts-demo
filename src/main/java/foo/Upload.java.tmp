@@ -1,8 +1,10 @@
 package foo;
 
-import com.opensymphony.xwork2.ActionSupport;
 import java.io.File;
+
 import org.apache.commons.io.FileUtils;
+
+import com.opensymphony.xwork2.ActionSupport;
 
 public class Upload extends ActionSupport {
     private File upload;

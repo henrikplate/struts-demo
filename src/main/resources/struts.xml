@@ -16,11 +16,17 @@
             </result>
         </action>
 
-        <action name="upload" class="foo.Upload">
+        <action name="echo" class="foo.Echo">
+            <result name="input">WEB-INF/echo.jsp</result>
+            <result name="error">WEB-INF/error.jsp</result>
+            <result name="success">WEB-INF/echo.jsp</result>
+        </action>
+
+        <!--action name="upload" class="foo.Upload">
             <result name="input">WEB-INF/upload.jsp</result>
             <result name="error">WEB-INF/error.jsp</result>
             <result name="success">WEB-INF/success.jsp</result>
-        </action>
+        </action-->
 
     </package>
 </struts>
